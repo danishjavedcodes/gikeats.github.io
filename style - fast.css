@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.424),rgba(245, 245, 245, 0.76)), url(back.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+.navbar
+{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo
+{
+    width: 150px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.cart
+{
+    width: 40px;
+    cursor: pointer;
+    margin-left: 40px;
+    padding-right: 5%;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #2D2B33;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    
+}
+nav ul li :hover{
+    color: red;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    color: #fff;
+    margin-top: 100px;
+}
+.card
+{
+width: 160.4px;
+height: 182px;
+display: inline-block;
+padding: 20px 25px;
+box-sizing: border-box;
+border-color:red;
+border-width: 3px;
+border-style: solid;
+cursor: pointer;
+background-position: center;
+background-size: cover;
+border-color: red;
+transition: transform 0.5s;
+margin-left: 5px;
+margin-bottom: 5px;
+border-radius: 50px 50px 20px 20px;
+}
+.card1
+{
+    background-image: url();
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-image: url(BBQ\ PIZZA.jpeg);
+    background-size: cover;
+}
+.card2
+{
+    background-image: url();
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-image: url(pizza.jpeg);
+    background-size: cover;
+}
+.card3
+{
+    background-image: url();
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-image: url(pizza2.jpeg);
+    background-size: cover;
+}
+.card4
+{
+    background-image: url();
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-image: url(zingerrr.jpeg);
+    background-size: cover;
+}
+.card55
+{
+    background-image: url();
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    font-size: 10px;
+    background-image: url(patty.jpeg);
+    background-size: cover;
+}
+.card6
+{
+    background-image: url();
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    font-size: 10px;
+    background-image: url(sand.jpeg);
+    background-size: cover;
+}
+.card5
+{
+    background-image: url();
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    font-size: 10px;
+    background-image: url(club\ sanwich.jpeg);
+    background-size: cover;
+}
+.card7
+{
+    background-image: url();
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    font-size: 10px;
+    background-image: url(sandwiches.jpeg);
+    background-size: cover;
+}
+.card8
+{
+    background-image: url();
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    font-size: 10px;
+    background-image: url(club\ sanwich.jpeg);
+    background-size: cover;
+}
+.card9
+{
+    background-image: url();
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    font-size: 10px;
+    background-image: url(partha\ roll.jpeg);
+    background-size: cover;
+}
+.card10
+{
+    background-image: url();
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-image: url(LASANGA.jpeg);
+    font-size: 10px;
+    background-size: cover;
+}
+.card11
+{
+    background-image: url();
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    font-size: 10px;
+    background-image: url(fingers.jpeg);
+    background-size: cover;
+}
+.card12
+{
+    background-image: url();
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    font-size: 10px;
+    background-image: url(partha\ roll.jpeg);
+    background-size: cover;
+}
+.card13
+{
+    background-image: url();
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    font-size: 10px;
+    background-image: url(Paratha\ roll.jpeg);
+    background-size: cover;
+}
+.card14
+{
+    background-image: url();
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    font-size: 10px;
+    background-image: url(big\ zinger.jpeg);
+    background-size: cover;
+}
+.card:hover{
+    transform: translateY(-10px);
+    border-color: rgb(0, 0, 0);
+    
+    filter: drop-shadow(20px);
+    box-shadow: black;
+    backdrop-filter: blur(10px);
+    color: black;
+}
+h5{
+    font-family: 'Montserrat Alternates', serif;
+    font-size: 20px;
+    
+}
+h5:hover{
+    color: red;
+}
+
+
+button{
+    width: 80px;
+    color: rgb(255, 255, 255);
+    font-size: 12;
+    padding: 12px 0;
+    background: red;
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    margin-top: 65px;
+
+    margin-left: 10px;
+    transition: transform 0.5s;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    filter: drop-shadow(10px);
+    transform: translateZ(10px);
+}
