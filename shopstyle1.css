@@ -1,0 +1,116 @@
+.logo-icon,
+.orders,
+.products {
+  cursor: pointer;
+  position: absolute;
+}
+.logo-icon {
+  top: 0;
+  left: 0;
+  width: 178px;
+  height: 174px;
+  object-fit: cover;
+}
+.orders,
+.products {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 66px;
+  font-size: var(--font-size-3xl);
+  font-weight: 800;
+  font-family: var(--font-raleway);
+  color: var(--color-gray);
+  text-align: center;
+  display: inline-block;
+  height: 43px;
+}
+.products {
+  left: 1027px;
+  width: 166px;
+}
+.orders {
+  left: 1208px;
+  width: 116px;
+}
+.details-child,
+.nav {
+  position: absolute;
+  top: 0;
+}
+.nav {
+  left: 58px;
+  width: 1324px;
+  height: 174px;
+}
+.details-child {
+  left: 0;
+  border-radius: 8px;
+  width: 1231.07px;
+  height: 52.68px;
+}
+.item {
+  left: 22.49px;
+  width: 62px;
+}
+.item,
+.location,
+.payment-method,
+.status,
+.time {
+  position: absolute;
+  top: 11.34px;
+  font-weight: 800;
+  color: inherit;
+  display: inline-block;
+  height: 31px;
+  text-decoration: none;
+}
+.location {
+  left: 379.49px;
+  width: 110px;
+}
+.time {
+  left: 616.49px;
+  width: 67px;
+}
+.status {
+  left: 1128.49px;
+  width: 87px;
+}
+.payment-method {
+  left: 792.49px;
+  width: 227px;
+}
+.details {
+  position: absolute;
+  top: 16.81px;
+  left: 16.06px;
+  width: 1231.07px;
+  height: 52.68px;
+}
+.order-details,
+.order-details-child {
+  position: absolute;
+  width: 1263.19px;
+  height: 678.16px;
+}
+.order-details-child {
+  top: 0;
+  left: 0;
+}
+.order-details {
+  top: 248.84px;
+  left: 100.45px;
+}
+.shop {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}

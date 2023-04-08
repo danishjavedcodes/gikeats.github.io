@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./shopstyle.css" />
+    <link rel="stylesheet" href="./shopstyle1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="shop">
+      <nav class="nav" id="nav">
+        <img
+          class="logo-icon"
+          alt=""
+          src="./public/logo@2x.png"
+          id="lOGOImage"
+        /><button class="products" id="products">Products</button
+        ><button class="orders" id="orders">Orders</button>
+      </nav>
+      <div class="order-details">
+        <div class="details" id="details">
+          <div class="details-child" id="details"></div>
+          <a class="item" id="item">Item</a><a class="location">location</a
+          ><a class="time">Time</a><a class="status">Status</a
+          ><a class="payment-method">Payment Method</a>
+        </div>
+        <img class="order-details-child" alt="" src="./public/frame-4.svg" />
+      </div>
+    </div>
+
+    <script>
+      var lOGOImage = document.getElementById("lOGOImage");
+      if (lOGOImage) {
+        lOGOImage.addEventListener("click", function (e) {
+          // Please sync "home" to the project
+        });
+      }
+      
+      var products = document.getElementById("products");
+      if (products) {
+        products.addEventListener("click", function (e) {
+          // Please sync "About" to the project
+        });
+      }
+      
+      var orders = document.getElementById("orders");
+      if (orders) {
+        orders.addEventListener("click", function (e) {
+          // Please sync "home" to the project
+        });
+      }
+      </script>
+  </body>
+</html>
