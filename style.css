@@ -6,7 +6,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.424),rgba(245, 245, 245, 0.76)), url(back.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.424),rgba(245, 245, 245, 0.76)), url(assets/images/backgrounds/back.jpg);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -115,7 +115,7 @@ color: rgb(0, 0, 0);
 }
 .card1
 {
-    background-image: url(fast.png);
+    background-image: url(assets/images/categories/fast.png);
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -123,7 +123,7 @@ color: rgb(0, 0, 0);
 }
 .card2
 {
-    background-image: url(desi.png);
+    background-image: url(assets/images/categories/desi.png);
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -131,7 +131,7 @@ color: rgb(0, 0, 0);
 }
 .card3
 {
-    background-image: url(Cafe.png);
+    background-image: url(assets/images/categories/Cafe.png);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -140,7 +140,7 @@ color: rgb(0, 0, 0);
 }
 .card4
 {
-    background-image: url(sweet.png);
+    background-image: url(assets/images/categories/sweet.png);
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: bottom right;

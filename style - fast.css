@@ -6,7 +6,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.424),rgba(245, 245, 245, 0.76)), url(back.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.424),rgba(245, 245, 245, 0.76)), url(assets/images/backgrounds/back.jpg);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -86,7 +86,7 @@ border-radius: 50px 50px 20px 20px;
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-image: url(BBQ\ PIZZA.jpeg);
+    background-image: url(assets/images/menu/fast/BBQ\ PIZZA.jpeg);
     background-size: cover;
 }
 .card2
@@ -95,7 +95,7 @@ border-radius: 50px 50px 20px 20px;
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-image: url(pizza.jpeg);
+    background-image: url(assets/images/menu/fast/pizza.jpeg);
     background-size: cover;
 }
 .card3
@@ -104,7 +104,7 @@ border-radius: 50px 50px 20px 20px;
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-image: url(pizza2.jpeg);
+    background-image: url(assets/images/menu/fast/pizza2.jpeg);
     background-size: cover;
 }
 .card4
@@ -113,7 +113,7 @@ border-radius: 50px 50px 20px 20px;
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-image: url(zingerrr.jpeg);
+    background-image: url(assets/images/menu/fast/zingerrr.jpeg);
     background-size: cover;
 }
 .card55
@@ -123,7 +123,7 @@ border-radius: 50px 50px 20px 20px;
     background-repeat: no-repeat;
     background-position: bottom right;
     font-size: 10px;
-    background-image: url(patty.jpeg);
+    background-image: url(assets/images/menu/fast/patty.jpeg);
     background-size: cover;
 }
 .card6
@@ -133,7 +133,7 @@ border-radius: 50px 50px 20px 20px;
     background-repeat: no-repeat;
     background-position: bottom right;
     font-size: 10px;
-    background-image: url(sand.jpeg);
+    background-image: url(assets/images/menu/fast/sand.jpeg);
     background-size: cover;
 }
 .card5
@@ -143,7 +143,7 @@ border-radius: 50px 50px 20px 20px;
     background-repeat: no-repeat;
     background-position: bottom right;
     font-size: 10px;
-    background-image: url(club\ sanwich.jpeg);
+    background-image: url(assets/images/menu/fast/club\ sanwich.jpeg);
     background-size: cover;
 }
 .card7
@@ -153,7 +153,7 @@ border-radius: 50px 50px 20px 20px;
     background-repeat: no-repeat;
     background-position: bottom right;
     font-size: 10px;
-    background-image: url(sandwiches.jpeg);
+    background-image: url(assets/images/menu/fast/sandwiches.jpeg);
     background-size: cover;
 }
 .card8
@@ -163,7 +163,7 @@ border-radius: 50px 50px 20px 20px;
     background-repeat: no-repeat;
     background-position: bottom right;
     font-size: 10px;
-    background-image: url(club\ sanwich.jpeg);
+    background-image: url(assets/images/menu/fast/club\ sanwich.jpeg);
     background-size: cover;
 }
 .card9
@@ -173,7 +173,7 @@ border-radius: 50px 50px 20px 20px;
     background-repeat: no-repeat;
     background-position: bottom right;
     font-size: 10px;
-    background-image: url(partha\ roll.jpeg);
+    background-image: url(assets/images/menu/fast/partha\ roll.jpeg);
     background-size: cover;
 }
 .card10
@@ -182,7 +182,7 @@ border-radius: 50px 50px 20px 20px;
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-image: url(LASANGA.jpeg);
+    background-image: url(assets/images/menu/fast/LASANGA.jpeg);
     font-size: 10px;
     background-size: cover;
 }
@@ -193,7 +193,7 @@ border-radius: 50px 50px 20px 20px;
     background-repeat: no-repeat;
     background-position: bottom right;
     font-size: 10px;
-    background-image: url(fingers.jpeg);
+    background-image: url(assets/images/menu/fast/fingers.jpeg);
     background-size: cover;
 }
 .card12
@@ -203,7 +203,7 @@ border-radius: 50px 50px 20px 20px;
     background-repeat: no-repeat;
     background-position: bottom right;
     font-size: 10px;
-    background-image: url(partha\ roll.jpeg);
+    background-image: url(assets/images/menu/fast/partha\ roll.jpeg);
     background-size: cover;
 }
 .card13
@@ -213,7 +213,7 @@ border-radius: 50px 50px 20px 20px;
     background-repeat: no-repeat;
     background-position: bottom right;
     font-size: 10px;
-    background-image: url(Paratha\ roll.jpeg);
+    background-image: url(assets/images/menu/fast/Paratha\ roll.jpeg);
     background-size: cover;
 }
 .card14
@@ -223,7 +223,7 @@ border-radius: 50px 50px 20px 20px;
     background-repeat: no-repeat;
     background-position: bottom right;
     font-size: 10px;
-    background-image: url(big\ zinger.jpeg);
+    background-image: url(assets/images/menu/fast/big\ zinger.jpeg);
     background-size: cover;
 }
 .card:hover{

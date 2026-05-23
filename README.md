@@ -94,23 +94,32 @@ No build step, no framework, and no backend required — clone and open `index.h
 
 ```
 gikeats.github.io/
-├── index.html          # Home page — hero, category cards, navigation
-├── about.html          # About GikiEats & how to order
-├── fast.html           # Fast food menu
-├── desi.html           # Desi / Pakistani food menu
-├── des.html            # Sweet dishes & desserts
-├── shake.html          # Drinks & beverages
-├── cart.html           # Shopping cart & checkout summary
-├── payment.html        # Payment method selection
-├── Thanks.html         # Order confirmation
-├── signin.html         # User sign in
-├── signup.html         # User registration
-├── shopview.html       # Shop / order management dashboard
-├── style.css           # Global & home page styles
-├── style-*.css         # Page-specific stylesheets
-├── public/             # Shared assets (fonts, SVGs)
-├── logo.png            # GikiEats brand logo
-└── *.jpeg / *.jpg      # Food item images
+├── index.html              # Home page — hero, category cards, navigation
+├── about.html              # About GikiEats & how to order
+├── fast.html               # Fast food menu
+├── desi.html               # Desi / Pakistani food menu
+├── des.html                # Sweet dishes & desserts
+├── shake.html              # Drinks & beverages
+├── cart.html               # Shopping cart & checkout summary
+├── payment.html            # Payment method selection
+├── Thanks.html             # Order confirmation
+├── signin.html             # User sign in
+├── signup.html             # User registration
+├── shopview.html           # Shop / order management dashboard
+├── style.css               # Global & home page styles
+├── style-*.css             # Page-specific stylesheets
+├── assets/images/
+│   ├── brand/              # logo.png, cart.png, user.png, debit-card.png
+│   ├── backgrounds/        # back.jpg (shared page background)
+│   ├── categories/         # Home page category card images
+│   ├── menu/
+│   │   ├── fast/           # Fast food item photos
+│   │   ├── desi/           # Desi food item photos
+│   │   ├── desserts/       # Sweet dish photos
+│   │   └── beverages/      # Drink photos
+│   ├── cart/               # Cart product images
+│   └── misc/               # Unused / spare images
+└── public/                 # Shared assets (fonts, SVGs)
 ```
 
 ---

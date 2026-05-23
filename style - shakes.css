@@ -6,7 +6,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.424),rgba(245, 245, 245, 0.76)), url(back.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.424),rgba(245, 245, 245, 0.76)), url(assets/images/backgrounds/back.jpg);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -83,7 +83,7 @@ color: white;
 .card1
 {
     
-    background-image: url(Matka\ Chai.jpeg);
+    background-image: url(assets/images/menu/beverages/Matka\ Chai.jpeg);
     background-size: 80%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@ color: white;
 .card2
 {
     
-    background-image: url(Coffee\ Latte.jpeg);
+    background-image: url(assets/images/menu/beverages/Coffee\ Latte.jpeg);
     background-size: 80%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ color: white;
 }
 .card3
 {
-    background-image: url(pepso.jpg);
+    background-image: url(assets/images/menu/beverages/pepso.jpg);
     background-size: 60%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -108,7 +108,7 @@ color: white;
 }
 .card4
 {
-    background-image: url(sprito.jpg);
+    background-image: url(assets/images/menu/beverages/sprito.jpg);
     background-size: 80%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -116,7 +116,7 @@ color: white;
 }
 .card5
 {
-    background-image: url(fanto.jpg);
+    background-image: url(assets/images/menu/beverages/fanto.jpg);
     background-size: 80%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,7 +125,7 @@ color: white;
 }
 .card6
 {
-    background-image: url(cocacola.jpg);
+    background-image: url(assets/images/menu/beverages/cocacola.jpg);
     background-size: 80%;
     background-repeat: no-repeat;
     background-size: cover;
