@@ -6,7 +6,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.424),rgba(245, 245, 245, 0.76)), url(assets/images/backgrounds/back.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.424),rgba(245, 245, 245, 0.76)), url(../assets/images/backgrounds/back.jpg);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -58,68 +58,93 @@ nav ul li :hover{
     align-items: center;
 }
 .col{
-    margin-top: 100px;
+    flex-basis: 90%;
+    margin-right: 20px;
+}
+h1{
+    color: red;
+    font-size: 100px;
+    font-family: 'Raleway', sans-serif;
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;  
+}
+button{
+    width: 180px;
+    color: rgb(255, 255, 255);
+    font-size: 18;
+    padding: 12px 0;
+    background: red;
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    margin-top: 30px;
+    transition: transform 0.5s;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    filter: drop-shadow(10px);
+    transform: translateZ(10px);
 }
 .card
 {
-    color: seashell;
-width: 160.4px;
-height: 182px;
+width: 203;
+height: 230px;
 display: inline-block;
-padding: 20px 25px;
+padding: 15px 25px;
 box-sizing: border-box;
 border-color:red;
 border-width: 3px;
 border-style: solid;
 cursor: pointer;
+margin: 10px 10px;
 background-position: center;
 background-size: cover;
 border-color: red;
 transition: transform 0.5s;
-margin-left: 5px;
-margin-bottom: 5px;
-border-radius: 50px 50px 20px 20px;
+margin-left: 20px;
+margin-bottom: 20px;
+color: rgb(0, 0, 0);
 }
 .card1
 {
-    background-image: url(assets/images/menu/desserts/Lava.jpeg);
+    background-image: url(../assets/images/categories/fast.png);
     background-size: 80%;
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: bottom right;
+    border-radius: 20px 20px 0px 20px;
 }
 .card2
 {
-    background-image: url(assets/images/menu/desserts/Brownie.jpeg);
+    background-image: url(../assets/images/categories/desi.png);
     background-size: 80%;
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: bottom right;
+    border-radius: 20px 20px 20px 0px;
 }
 .card3
 {
-    background-image: url(assets/images/menu/desserts/gullu\ butt.jpeg);
+    background-image: url(../assets/images/categories/Cafe.png);
     background-size: 60%;
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom right;
+    border-radius: 0px 20px 20px 20px;
+    position: relative;
 }
 .card4
 {
-    background-image: url(assets/images/menu/desserts/ja.jpeg);
-    background-size: 80%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-}
-.card5
-{
-    background-image: url(assets/images/menu/desserts/kheer.jpeg);
+    background-image: url(../assets/images/categories/sweet.png);
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: cover;
-    font-size: 10px;
+    border-radius: 20px 0px 20px 20px;
 }
 .card:hover{
     transform: translateY(-10px);
@@ -127,33 +152,9 @@ border-radius: 50px 50px 20px 20px;
     background-size: cover;
     filter: drop-shadow(20px);
     box-shadow: black;
-    backdrop-filter: blur(10px);
-    color: black;
+    backdrop-filter: blur(50px);
 }
 h5{
     font-family: 'Montserrat Alternates', serif;
-    font-size: 20px;
-    
-}
-h5:hover{
-    color: red;
-}
-button{
-    width: 80px;
-    color: rgb(255, 255, 255);
-    font-size: 12;
-    padding: 12px 0;
-    background: red;
-    border: 0;
-    border-radius: 25px;
-    outline: none;
-    margin-top: 65px;
-
-    margin-left: 10px;
-    transition: transform 0.5s;
-}
-button:hover{
-    background-color: rgb(0, 0, 0);
-    filter: drop-shadow(10px);
-    transform: translateZ(10px);
+    font-size: 30px;
 }
